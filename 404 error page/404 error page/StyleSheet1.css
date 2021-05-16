@@ -1,0 +1,62 @@
+﻿body {
+    background:linear-gradient(45deg,#ff0000,#808080);
+    height:100vh;
+}
+#container {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+    right: 6%;
+    bottom: 6%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b00707;
+    background-image: url('imgs/GammYLO.jpg');
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.85);
+}
+#container .content
+{
+    text-align:center;
+    line-height:1px;
+}
+#container .content h1
+{
+    color:#ffffff;
+    font-size:189px;
+    font-style:normal; 
+}
+#container .content h2
+{
+    position:relative;
+    font-size:2em;
+    margin-bottom:20px;
+    color:#111;
+    background-color:#fff;
+    font-weight:300;
+    padding: 22px 35px;
+    display:inline-block;
+}
+#container .content p{
+    font-size:1.5em;
+    color:#fff;
+}
+#container .content a
+{
+  text-decoration:none;
+  display:inline-block;
+  padding:24px 25px;
+  font-size:30px;
+  color:#fff;
+  background-color:#ce5a5a;
+  border-radius:20px;
+  padding-top:25px;
+}
+#container .content a:hover
+{
+    background-color:#ff0000;
+    cursor:pointer;
+}
+
+
